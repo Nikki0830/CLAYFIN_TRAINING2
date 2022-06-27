@@ -13,12 +13,12 @@ const Reducer = (state, action) => {
       return { ...state, count: state.count + action.value };
     case "multiply":
       return { ...state, count1: state.count1 * action.value };
-      case "decrement":
-        return {...state,count:state.count - action.value};
-        case "incrementAge":
-            return {...state,age:state.age + action.value};
-            case "decrementAge":
-                return {...state,age:state.age - action.value};
+    case "decrement":
+      return { ...state, count: state.count - action.value };
+    case "incrementAge":
+      return { ...state, age: state.age + action.value };
+    case "decrementAge":
+      return { ...state, age: state.age - action.value };
     default:
       return state;
   }
