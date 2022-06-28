@@ -20,12 +20,15 @@ import FormContainer from "./components/Practice/Formhandler/FormContainer";
 import Reducer1 from "./components/UseReducer/Reducer1";
 import Reducer2 from "./components/UseReducer/Reducer2";
 import Reducer3 from "./components/UseReducer/Reducer3";
-import Reducer4 from "./components/UseReducer/Reducer4";
+// import Reducer4 from "./components/UseReducer/Reducer4";
 import Boot from "./components/Bootstrap/Boot";
 import Cm from "./components/Memovscallb/Cm";
 import Image from "./components/ImageUpload/Image";
 import Createref from "./components/Createrefclasscom/Createref";
 import Useref from "./components/Usereffuncom/Useref";
+import RouteR from "./components/Routing/RouteR";
+import Routing1 from "./components/RoutingEx/Routing1";
+import Useparam from "./components/Routing/Useparam";
 
 
 function App() {
@@ -51,10 +54,13 @@ function App() {
         <Reducer3/>
         <Reducer4/>
         <Boot/> */}
-        <Cm/>
+        {/* <Cm/>
         <Image/>
         <Createref/>
-        <Useref/>
+        <Useref/> */}
+        <RouteR/>
+        <Routing1/>
+        <Useparam/>
       </div>
     </>
   );
