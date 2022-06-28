@@ -23,6 +23,7 @@ import Reducer3 from "./components/UseReducer/Reducer3";
 import Reducer4 from "./components/UseReducer/Reducer4";
 import Boot from "./components/Bootstrap/Boot";
 import Cm from "./components/Memovscallb/Cm";
+import Image from "./components/ImageUpload/Image";
 
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
         <Reducer4/>
         <Boot/> */}
         <Cm/>
-      
+        <Image/>
       </div>
     </>
   );
