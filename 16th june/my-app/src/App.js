@@ -24,6 +24,8 @@ import Reducer4 from "./components/UseReducer/Reducer4";
 import Boot from "./components/Bootstrap/Boot";
 import Cm from "./components/Memovscallb/Cm";
 import Image from "./components/ImageUpload/Image";
+import Createref from "./components/Createrefclasscom/Createref";
+import Useref from "./components/Usereffuncom/Useref";
 
 
 function App() {
@@ -51,6 +53,8 @@ function App() {
         <Boot/> */}
         <Cm/>
         <Image/>
+        <Createref/>
+        <Useref/>
       </div>
     </>
   );
