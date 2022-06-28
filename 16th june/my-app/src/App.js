@@ -22,6 +22,8 @@ import Reducer2 from "./components/UseReducer/Reducer2";
 import Reducer3 from "./components/UseReducer/Reducer3";
 import Reducer4 from "./components/UseReducer/Reducer4";
 import Boot from "./components/Bootstrap/Boot";
+import Cm from "./components/Memovscallb/Cm";
+
 
 function App() {
   return (
@@ -41,11 +43,13 @@ function App() {
         <Login />
         <Contextfile2 /> */}
         {/* <FormContainer /> */}
-        <Reducer1/>
+        {/* <Reducer1/>
         <Reducer2/>
         <Reducer3/>
         <Reducer4/>
-        <Boot/>
+        <Boot/> */}
+        <Cm/>
+      
       </div>
     </>
   );

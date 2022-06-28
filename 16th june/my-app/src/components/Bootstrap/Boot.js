@@ -1,13 +1,15 @@
 import React from "react";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Button from 'react-bootstrap/Button';
+import Alert from 'react-bootstrap/Button';
 
 export default function Boot() {
   return (
     <>
     <Button>Text button</Button>
-      {/* <div> */}
-      {/* <div className="container">
+    <Alert variant="success">hi</Alert>
+      
+      <div className="container">
           <div
             className="row"
         
@@ -20,9 +22,9 @@ export default function Boot() {
             </div>
             <div className="col-sm-8" style={{ border: "1px solid red" }}>
               column
-            </div> */}
+            </div>
 
-      <div class="mb-3">
+      <div class="p-10">
         <label for="exampleFormControlInput1" class="form-label">
           Email address
         </label>
@@ -43,9 +45,9 @@ export default function Boot() {
           rows="3"
         ></textarea>
       </div>
-      {/* </div>
+      </div>
         </div>
-      </div> */}
+      
 
     </>
   );
