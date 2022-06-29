@@ -29,6 +29,8 @@ import Useref from "./components/Usereffuncom/Useref";
 import RouteR from "./components/Routing/RouteR";
 import Routing1 from "./components/RoutingEx/Routing1";
 import Useparam from "./components/Routing/Useparam";
+import Nomatch from "./components/Routing/Nomatch";
+import Queryparam from "./components/Routing/Queryparam";
 
 
 function App() {
@@ -61,6 +63,8 @@ function App() {
         <RouteR/>
         <Routing1/>
         <Useparam/>
+        <Nomatch/>
+        <Queryparam/>
       </div>
     </>
   );
