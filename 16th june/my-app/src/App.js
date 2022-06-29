@@ -31,6 +31,7 @@ import Routing1 from "./components/RoutingEx/Routing1";
 import Useparam from "./components/Routing/Useparam";
 import Nomatch from "./components/Routing/Nomatch";
 import Queryparam from "./components/Routing/Queryparam";
+import Nested from "./components/Routing/Nested";
 
 
 function App() {
@@ -60,11 +61,12 @@ function App() {
         <Image/>
         <Createref/>
         <Useref/> */}
-        <RouteR/>
+        {/* <RouteR/>
         <Routing1/>
         <Useparam/>
         <Nomatch/>
-        <Queryparam/>
+        <Queryparam/> */}
+        <Nested/>
       </div>
     </>
   );
