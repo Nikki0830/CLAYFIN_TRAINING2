@@ -32,6 +32,8 @@ import Useparam from "./components/Routing/Useparam";
 import Nomatch from "./components/Routing/Nomatch";
 import Queryparam from "./components/Routing/Queryparam";
 import Nested from "./components/Routing/Nested";
+import ClickCounter from "./components/HOF/ClickCounter";
+import HoverCounter from "./components/HOF/HoverCounter";
 
 
 function App() {
@@ -67,6 +69,8 @@ function App() {
         <Nomatch/>
         <Queryparam/> */}
         <Nested/>
+        <ClickCounter/>
+        <HoverCounter/>
       </div>
     </>
   );
