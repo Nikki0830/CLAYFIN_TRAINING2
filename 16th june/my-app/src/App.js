@@ -34,6 +34,9 @@ import Queryparam from "./components/Routing/Queryparam";
 import Nested from "./components/Routing/Nested";
 import ClickCounter from "./components/HOF/ClickCounter";
 import HoverCounter from "./components/HOF/HoverCounter";
+import Privaterouten from "./components/Privateroute/Privaterouten";
+import Registry from "./components/Registryform/Registry";
+
 
 
 function App() {
@@ -69,8 +72,10 @@ function App() {
         <Nomatch/>
         <Queryparam/> */}
         <Nested/>
-        <ClickCounter/>
+        <ClickCounter name = "nikita"/>
         <HoverCounter/>
+        {/* <Privaterouten/> */}
+        <Registry/>
       </div>
     </>
   );
