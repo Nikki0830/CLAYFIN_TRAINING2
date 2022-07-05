@@ -36,9 +36,12 @@ import ClickCounter from "./components/HOF/ClickCounter";
 import HoverCounter from "./components/HOF/HoverCounter";
 import Privaterouten from "./components/Privateroute/Privaterouten";
 import Registry from "./components/Registryform/Registry";
+import {createStore} from "redux"
+import {Provider} from "react-redux"
+import Store from "./components/Redux2/Store";
+import reducer from "./components/Redux2/Reducer";
 
-
-
+const store = createStore(reducer)
 function App() {
   return (
     <>
@@ -71,11 +74,14 @@ function App() {
         <Useparam/>
         <Nomatch/>
         <Queryparam/> */}
-        <Nested/>
+        {/* <Nested/>
         <ClickCounter name = "nikita"/>
-        <HoverCounter/>
+        <HoverCounter/> */}
         {/* <Privaterouten/> */}
-        <Registry/>
+        {/* <Registry/> */}
+        <Provider store = {store}>
+          <Store/>
+        </Provider>
       </div>
     </>
   );
